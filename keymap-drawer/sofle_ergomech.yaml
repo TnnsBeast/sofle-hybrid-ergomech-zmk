@@ -1,6 +1,6 @@
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, POWER, RIGHT, UP ARROW, LEFT, DOWN]
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', ESC, Q, W, E, R, T, Y, U, I, O, P, '-', TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
+    X, C, V, B, N, M, ',', ., /, \, MUTE, LCTRL, LALT, LEFT COMMAND, BACKSPACE, lower, ENTER, SPACE, LEFT SHIFT, '[', ']', POWER, RIGHT, UP ARROW, LEFT, DOWN]
   lower:
   - '&studio_unlock'
   - F1
@@ -22,7 +22,7 @@ layers:
   - '5'
   - '6'
   - '7'
-  - '8'
+  - UP ARROW
   - '9'
   - '0'
   - F12
@@ -33,9 +33,9 @@ layers:
   - $
   - '%'
   - ^
-  - '&'
-  - '*'
-  - (
+  - LEFT
+  - DOWN
+  - RIGHT
   - )
   - '|'
   - {t: ▽, type: trans}
@@ -50,12 +50,12 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,7 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,10 +184,10 @@ layers:
   - ''
   - ''
   - ''
+  - ''
   - {type: held}
   - ''
   - ''
-  - {type: held}
   - ''
   - ''
   - ''
